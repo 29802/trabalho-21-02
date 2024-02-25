@@ -13,7 +13,7 @@
 
 :root{
     --menu:#DDD0C1;
-    --border:#99BAC0;
+    --border:#E75C50;
     --main-color: #bc9667;
     --second-color: #edea;
     --text-color: #1b1b1b;
@@ -125,7 +125,7 @@ header{
 .home{
     width: 100%;
     min-height: 100vh;
-    background: url(bg.png);
+    background: url(./fundo4.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -137,7 +137,7 @@ header{
 
 .home-text h1{
     font-size: 3.4rem;
-    color: var(--main-color);
+    color: var(--border);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
